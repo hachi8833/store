@@ -3,3 +3,13 @@ ja:
   products:
     index:
       title: "製品"
+
+  store:
+    products:
+      index:
+        title: "製品（管理画面）"
+
+  activerecord:
+    attributes:
+      user:
+        password_challenge: "現在のパスワード"
