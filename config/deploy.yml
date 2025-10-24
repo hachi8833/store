@@ -27,7 +27,7 @@ registry:
   server: localhost:5555
 
   # Needed for authenticated registries.
-  # username: your-user
+  username: hachi8833
 
   # Always use an access token rather than real password when possible.
   # password:
