@@ -10,4 +10,8 @@ class Product < ApplicationRecord
 
   validates :name, presence: true
   validates :inventory_count, numericality: { greater_than_or_equal_to: 0 }
+
+  def rating_percentage(rating)
+    (reviews.where(rating: rating).count.to_f / reviews_count * 100).round
+  end
 end

@@ -1,13 +1,13 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  product: one
+five_star:
+  product: tshirt
   user: one
-  rating: 1
-  body: MyText
+  rating: 5
+  body: I love this.
 
-two:
-  product: two
+four_star:
+  product: tshirt
   user: two
-  rating: 1
-  body: MyText
+  rating: 4
+  body: Great quality.
